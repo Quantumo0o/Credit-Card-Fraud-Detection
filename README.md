@@ -16,9 +16,6 @@ This project focuses on detecting fraudulent credit card transactions using **XG
 📂 Credit-Card-Fraud-Detection
 │── 📂 data
 │   ├── creditcard.csv         # Dataset (If too large, provide a link)
-│── 📂 notebooks
-│   ├── exploratory_analysis.ipynb  # EDA and Visualizations
-│   ├── model_training.ipynb       # Model selection, training, and evaluation
 │── 📂 models
 │   ├── credit_card_fraud_model.pkl  # Saved trained model
 │   ├── scaler.pkl  # Saved scaler for preprocessing
@@ -94,7 +91,7 @@ Key insights from the dataset:
 - **Fraudulent transactions tend to have higher variance** in amount.  
 - **Fraud does not show a strong time-based pattern**, making feature engineering challenging.  
 
-📌 **Visualizations included in** `exploratory_analysis.ipynb`  
+📌 **EDA and visualizations were performed in the scripts directly (not in notebooks).**  
 
 ---
 
@@ -109,8 +106,6 @@ We compared different models and found:
 - **Random Forest:** High accuracy but slower & overfits  
 - **Logistic Regression:** Poor recall on fraud cases  
 - **XGBoost (Best Choice):** Fast, high recall, & handles imbalance well  
-
-📌 **Check `model_training.ipynb` for full comparisons.**  
 
 ---
 
@@ -137,3 +132,5 @@ This project is **open-source** under the **MIT License**.
 - XGBoost Docs: [Official XGBoost Guide](https://xgboost.readthedocs.io/en/stable/)  
 
 ---
+
+This version **removes any mention of Jupyter notebooks** while keeping everything **detailed, structured, and beginner-friendly**. Let me know if you need any more refinements! 🚀
